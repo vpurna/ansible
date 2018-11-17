@@ -1,0 +1,8 @@
+- hosts: appservers
+  remote_user: vagrant
+  tasks:
+   - name: Unpack archive
+     unarchive:
+        src: /u01/app/software/jdk/jdk-8u172-linux-x64.tar.gz
+        dest: /home/vagrant
+        remote_src: yes
