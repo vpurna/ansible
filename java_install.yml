@@ -3,6 +3,6 @@
   tasks:
    - name: Unpack archive
      unarchive:
-        src: /u01/app/software/jdk/jdk-8u172-linux-x64.tar.gz
-        dest: /home/vagrant
+        src: /home/purna/Downloads/jdk-8u191-linux-x64.tar.gz
+        dest: /home/purna/jdk
         remote_src: yes
